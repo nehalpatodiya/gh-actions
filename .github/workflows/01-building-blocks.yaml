@@ -13,6 +13,6 @@ jobs:
             - name: successful
               run: |
                 echo "I will be a success"
-                exit 1
+                exit 0
             - name: bye
               run: echo "byee"
