@@ -15,6 +15,7 @@ jobs:
                 echo "Workflow: ${{ github.workflow }}"
                 echo "Run ID: ${{ github.run_id }}"
                 echo "Run number: ${{ github. run_number }}"
-            - name: print repo var
-              run: echo "var"
+            - name: Retrive variable
+              run: |
+                echo "Variable value: ${{ vars.MY_VAR }}"
               
